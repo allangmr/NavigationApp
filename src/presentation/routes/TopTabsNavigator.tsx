@@ -5,13 +5,14 @@ import { HamburguerMenu } from '../components/shared/HamburguerMenu';
 
 const Tab = createMaterialTopTabNavigator();
 
+
 export const TopTabsNavigator = () => {
   return (
     <>
         <HamburguerMenu />
         <Tab.Navigator>
-        <Tab.Screen name="Profile" key="Profile"  component={ProfileScreen} />
-        <Tab.Screen name="About" key="About"  component={AboutScreen} />
+            <Tab.Screen name="Profile" options={{ tabBarLabel: 'Profile' }} component={ProfileScreen} />
+            <Tab.Screen name="About" options={{ tabBarLabel: 'About' }}  component={AboutScreen} />
         </Tab.Navigator>
     </>
   );
