@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unstable-nested-components */
 /* eslint-disable react-native/no-inline-styles */
 import { createDrawerNavigator, DrawerContentComponentProps, DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
-// import { StackNavigator } from './StackNavigator';
 import { ProfileScreen } from '../screens/profile/ProfileScreen';
 import { globalColors } from '../theme/theme';
 import { useWindowDimensions, View } from 'react-native';

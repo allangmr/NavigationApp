@@ -14,5 +14,5 @@ export const HamburguerMenu = () => {
         ),
       });
     }, []);
-    return null;
+    return (<></>);
 };
